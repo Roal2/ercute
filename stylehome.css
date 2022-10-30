@@ -1,0 +1,305 @@
+body
+{
+    display: block;
+    margin: 0px;
+    background-image: url(images/stars.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*
+{
+    font-family:'Courier New', Courier, monospace
+}
+.notes .saturn
+{
+    float: center;
+    padding-top: 50px;
+}
+.notes .saturn2
+{
+    float: right;
+    
+    
+}
+.intro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    background: linear-gradient(100deg, rgba(255, 118, 237, 0.1) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px)
+    -webkit-backdrop-filter blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 106, 248, 0.18);
+    box-shadow: 0 0 20px rgba(255, 158, 215, 0.808);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 96, 215);
+    
+}
+.intro p
+{
+    color: rgb(255, 64, 223);
+}
+.intro .img
+{
+    float: center;
+    height: 250px;
+    width: 250px;
+    background-color:#ffa2cd;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 15px solid #f334b3;
+    box-shadow: 0 0 20px rgba(56, 192, 181, 0.808);
+}
+.content 
+{
+    margin-top: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(238, 58, 127);
+}
+.content .draw
+{
+    float: left;
+    height: 140px;
+    width: 140px;
+    background-color:#00ffd5;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    border: 15px solid #00ffd5;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.content .dance
+{
+    float: right;
+    height: 140px;
+    width: 140px;
+    background-color:#dd78e0;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    border: 15px solid #b855bd;
+    box-shadow: 0 0 20px rgba(148, 90, 165, 0.808);
+}
+.content .sing
+{
+    float: left;
+    height: 140px;
+    width: 140px;
+    background-color:#e0a3d8;
+    border-radius: 50%;
+    margin-top: 550px;
+    margin-bottom: 20px;
+    margin-left: -170px;
+    border: 15px solid #faa6a6;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.text h1
+{
+    text-align: left;
+    margin-top: 140px;
+    margin-bottom: 70px;
+    color: rgb(122, 124, 252);
+    border: 15px solid #78fff8;
+    background-color: #92efff;
+    padding-left: 450px;
+    font-size: 30px;
+}
+.text h2
+{
+    text-align: right;
+    margin-top: 180px;
+    margin-bottom: 70px;
+    color: rgba(255, 255, 255, 0.603);
+    border: 15px solid #9d5db1;
+    background-color: #ae71c2;
+    padding-left: 450px;
+    font-size: 30px;
+}
+.text h3
+{
+    text-align: left;
+    margin-top: 170px;
+    margin-bottom: 70px;
+    color: rgb(122, 124, 252);
+    border: 15px solid #faa6a6;
+    background-color: #ffa4e8;
+    padding-left: 450px;
+    font-size: 30px;
+}
+
+.spaceship .spaceship
+{
+    padding-top: 50px;
+    float: right;
+    margin-right:50px;
+    margin-left:0px;
+    width: 240px;
+    height: 250px;
+}
+.spaceship .ufo
+{ 
+  padding-top: 25%;
+  float: left;
+  margin-left:50px;
+  margin-right:0px;
+  width: 240px;
+  height: 250px;
+}
+.info
+{
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 70px;
+    color: rgb(176, 176, 255);
+    font-size: 30px;
+}
+.info p
+{
+    color: rgb(122, 124, 252);
+}
+.link h2 a
+{
+    margin-left: 200px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+    color: rgb(176, 176, 255);
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.link h2 a:hover
+{
+ color:rgba(185, 255, 249, 0.808)
+}
+.link h3 a
+{
+    margin-left: 160px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+    color: rgb(176, 176, 255);
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.link h3 a:hover
+{
+ color:rgba(185, 255, 249, 0.808);
+}
+.wall h1
+{
+    margin-left: 470px;
+    padding-top:150px;
+}
+.contact h1
+{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 70px;
+    color: rgb(176, 176, 255);
+    font-size: 50px;
+}
+.contact h2
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color: rgb(122, 124, 252);
+    font-size: 30px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:28px;
+	border:1px solid #c584f3;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 70px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer
+{
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.24) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px)
+    -webkit-backdrop-filter blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.18);
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: rgb(176, 176, 255);
+    color: white;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.footer h1
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(176, 176, 255);
+}
+.footer ul
+{
+    position: absolute;
+    padding-top: 5%;
+    margin-left: 48%;
+    transform: translate(-50%,  -50%);
+    display: flex;
+}
+.footer ul li
+{
+    list-style: none;
+    margin: 0 15px;
+}
+.footer ul li a .da
+{
+    
+    border-radius: 50%;
+    border: 15px solid #00ffd5;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.footer ul li a .ig
+{
+    background-color:#00ffd5;
+    border-radius: 50%;
+    border: 15px solid #00ffd5;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
+.footer ul li a .fb
+{
+    background-color:#00ffd5;
+    border-radius: 50%;
+    border: 15px solid #00ffd5;
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808);
+}
